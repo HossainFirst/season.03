@@ -13,7 +13,7 @@ function handler(req, res) {
       res.write('<h1>Hello World</h1>')
   }
   if(req.method == "POST"){
-      res.write('<h1>Heisenber</h1>')
+      res.write('Heisenber')
   }
 
   res.end();
